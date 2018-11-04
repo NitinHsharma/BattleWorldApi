@@ -1,7 +1,3 @@
-    
-    # Battle-API | Node.js
-
-
 ### API's to list, stats, search, count for battle.
 
 ## Prerequisite
@@ -19,7 +15,7 @@ git clone https://github.com/NitinHsharma/BattleWorldApi.gitt
 npm i
 ```
 
-# TO import data from csv
+## TO import data from csv
 ```
 mongoimport --db assigment --collection battle --type csv --file /example/file.csv
 
