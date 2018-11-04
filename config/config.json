@@ -1,0 +1,6 @@
+{
+    "db_config": {
+        "host": "mongodb://{{username}}:{{password}}@ds147233.mlab.com:47233/assigment"
+    }
+
+}
