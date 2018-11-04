@@ -6,7 +6,7 @@ const config = require('./config/config.json');
 
 /*
  *
- * MiddelWare
+ * MiddelWare 
  *
  */
 app.use(bodyparser.urlencoded({ extended: true }));
