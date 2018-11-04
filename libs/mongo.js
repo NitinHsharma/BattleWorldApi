@@ -4,7 +4,7 @@ const Config = require('../config/config.json');
 
 // ConnectionString
 let dbHost = Config.db_config.host;
-dbHost = dbHost.replace('{{username}}', process.env.DBUSER).replace("password", process.env.DBPASSWORD);
+//dbHost = dbHost.replace('{{username}}', process.env.DBUSER).replace("password", process.env.DBPASSWORD);
 
 mongoose.Promise = global.Promise;
 
