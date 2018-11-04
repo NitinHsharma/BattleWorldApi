@@ -9,7 +9,7 @@ const list = async(req, res) => {
 
     } catch (err) {
         res.statusCode = 500;
-        return res.send();
+        return res.send(err);
     }
 }
 
@@ -21,7 +21,7 @@ const count = async(req, res) => {
 
     } catch (err) {
         res.statusCode = 500;
-        return res.send();
+        return res.send(err);
     }
 }
 
@@ -35,7 +35,7 @@ const stats = async(req, res) => {
 
     } catch (err) {
         res.statusCode = 500;
-        return res.send();
+        return res.send(err);
     }
 }
 
@@ -51,7 +51,7 @@ const search = async(req, res) => {
 
     } catch (err) {
         res.statusCode = 500;
-        return res.send();
+        return res.send(err);
     }
 }
 
